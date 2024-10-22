@@ -1,0 +1,1847 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0" pages="18">
+  <diagram name="DiagramaContexto" id="yFkO__kAH_luD3XoRLJX">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-72" value="Monitoreo" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1816" y="1016" width="1564" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-73" value="Infraestructura" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1257" width="279" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-74" value="Backend" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1099" y="1257" width="2483" height="367" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-75" value="FrontEnd" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="935" y="1016" width="861" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-76" value="Cliente&#xa;(Usuario del sistema de banca por internet)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="966" y="860" width="228" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-77" value="Aplicación Móvil&#xa;(Flutter/React Native)&#xa;Acceso móvil con funcionalidades de onboarding." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="970" y="1041" width="221" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-78" value="Single-Page Application&#xa;(Angular/React)&#xa;Acceso web a las funcionalidades del sistema." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1534" y="1041" width="227" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-79" value="API Gateway&#xa;(AWS API Gateway)&#xa;Gestiona el enrutamiento de solicitudes." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2015" y="1291" width="243" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-80" value="Servicio de Autenticación&#xa;(OAuth 2.0)&#xa;Administra la autenticación y tokens." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1263" y="1498" width="259" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-81" value="Servicio de Verificación de Identidad&#xa;(Reconocimiento Facial)&#xa;Valida la identidad del usuario." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1136" y="1282" width="250" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-82" value="Plataforma Core Bancaria&#xa;Información del cliente, movimientos y productos." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1571" y="1507" width="245" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-83" value="Sistema Intermedio&#xa;Complementa la información del cliente." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1866" y="1507" width="233" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-84" value="Servicio de Notificaciones 1&#xa;(Email/SMS)&#xa;Envía notificaciones de movimientos." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2292" y="1498" width="258" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-85" value="Servicio de Notificaciones 2&#xa;(Push Notifications)&#xa;Envía alertas en tiempo real." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2688" y="1498" width="258" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-86" value="Servicio de Auditoría&#xa;(Captura de Eventos)&#xa;Registra todas las acciones del cliente." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2996" y="1498" width="252" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-87" value="Servicio de Cache&#xa;(Redis/Memcached)&#xa;Mejora el rendimiento con datos en memoria." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="3297" y="1498" width="251" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-88" value="Infraestructura Nube&#xa;(AWS/Azure)&#xa;Proporciona alta disponibilidad y escalabilidad." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="835" y="1282" width="209" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-89" value="Servicio de Monitoreo&#xa;(CloudWatch, Elastic Stack)&#xa;Captura métricas y logs." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2226" y="1059" width="257" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-90" value="Servicio de Alerta&#xa;(SNS, PagerDuty)&#xa;Envío de alertas automáticas." style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2859" y="1050" width="186" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-91" value="Accede a" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-76" target="TS_rV2WBjxSNN77oz7sP-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-92" value="Accede a" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-76" target="TS_rV2WBjxSNN77oz7sP-78" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1648" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-93" value="Solicitudes" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0;entryY=0.25;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-77" target="TS_rV2WBjxSNN77oz7sP-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1268" y="1185" />
+              <mxPoint x="1728" y="1221" />
+              <mxPoint x="1728" y="1257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-94" value="Solicitudes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.47;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-78" target="TS_rV2WBjxSNN77oz7sP-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1648" y="1185" />
+              <mxPoint x="2124" y="1221" />
+              <mxPoint x="2124" y="1257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-95" value="Inicia Onboarding" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-77" target="TS_rV2WBjxSNN77oz7sP-81" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1078" y="1185" />
+              <mxPoint x="1262" y="1221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-96" value="Valida Identidad" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.2;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-81" target="TS_rV2WBjxSNN77oz7sP-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1262" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-97" value="Autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.58;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1426" y="1426" />
+              <mxPoint x="1426" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-98" value="Consulta" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1694" y="1426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-99" value="Consulta Detallada" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1983" y="1426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-100" value="Registro de Auditoría" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.62;entryX=0.26;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3017" y="1426" />
+              <mxPoint x="3017" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-101" value="Notificaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.11;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2138" y="1426" />
+              <mxPoint x="2138" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-102" value="Notificaciones" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0.23;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2699" y="1426" />
+              <mxPoint x="2699" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-103" value="Cache" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.58;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3423" y="1426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-104" value="Monitorea" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.79;entryX=0.5;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-89" target="TS_rV2WBjxSNN77oz7sP-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1918" y="1185" />
+              <mxPoint x="940" y="1221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-105" value="Monitorea Servicios" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.402;entryX=0.5;entryY=1;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-79" target="TS_rV2WBjxSNN77oz7sP-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2290" y="1230" />
+              <mxPoint x="2300" y="1230" />
+              <mxPoint x="2300" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-106" value="Audita Eventos" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.61;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-89" target="TS_rV2WBjxSNN77oz7sP-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3170" y="1185" />
+              <mxPoint x="3170" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-107" value="Envía Alertas" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.74;entryX=0.96;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-90" target="TS_rV2WBjxSNN77oz7sP-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2626" y="1185" />
+              <mxPoint x="2626" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TS_rV2WBjxSNN77oz7sP-108" value="Envía Reportes" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.72;entryX=0.73;entryY=0;rounded=0;" parent="1" source="TS_rV2WBjxSNN77oz7sP-89" target="TS_rV2WBjxSNN77oz7sP-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2921" y="1185" />
+              <mxPoint x="2921" y="1462" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gMDuIrqANwT7I6gnGTvr" name="DagramaContenedores">
+    <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-176" value="Databases" style="whiteSpace=wrap;strokeWidth=2;horizontal=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="804" y="1050" width="816" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-177" value="Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="637" width="4380" height="847" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-178" value="Monitoreo y Alerta" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5633" y="836" width="369" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-179" value="Servicio de Auditoría (ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="4106" y="836" width="627" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-180" value="Servicio de Notificaciones (SNS/SES)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4609" y="1326" width="1365" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-181" value="Servicio de Transferencias (ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2618" y="836" width="608" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-182" value="Servicio de Detalles del Cliente (ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="3246" y="836" width="840" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-183" value="Servicio Core Bancario (ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="836" width="908" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-184" value="Servicio de Onboarding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4858" y="836" width="408" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-185" value="Servicio de Autenticación (AWS Cognito)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5287" y="836" width="326" height="392" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-186" value="Frontend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4468" y="378" width="567" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-187" value="Cliente&#xa;(Usuario)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4691" y="240" width="125" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-188" value="Single-Page Application&#xa;(Angular/React)&#xa;Interfaz web para el usuario." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4503" y="412" width="227" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-189" value="Aplicación Móvil&#xa;(Flutter/React Native)&#xa;Interfaz móvil con funcionalidad de onboarding." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4780" y="403" width="221" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-190" value="API Gateway&#xa;(Amazon API Gateway)&#xa;Punto de entrada para solicitudes del frontend." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4636" y="662" width="236" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-191" value="Manejador de Autenticación&#xa;(Validación de credenciales y generación de tokens)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5322" y="861" width="256" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-192" value="Autenticación Multifactor (MFA)&#xa;(Verificación adicional de seguridad)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5327" y="1093" width="245" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-193" value="Verificación de Identidad&#xa;(Reconocimiento Facial)&#xa;Valida la identidad del usuario." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4893" y="861" width="241" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-194" value="Creación de Perfil&#xa;(Registro inicial del usuario)&#xa;Gestiona la creación del perfil." style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4897" y="1084" width="234" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-195" value="Gestión de Cuentas&#xa;(Consulta y actualización de cuentas bancarias)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="870" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-196" value="Registro de Transacciones&#xa;(Seguimiento de movimientos)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="869.5" width="243" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-197" value="Consulta de Saldos&#xa;(Obtención del saldo de las cuentas)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2308" y="870" width="255" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-198" value="Información Personal&#xa;(Datos personales del cliente)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3281" y="870" width="214" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-199" value="Información de Contacto&#xa;(Teléfono, dirección, email)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="870" width="237" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-200" value="Verificación KYC&#xa;(Conozca a su cliente)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3832" y="878" width="219" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-201" value="Transferencias Internas&#xa;(Dentro del mismo banco)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2653" y="878" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-202" value="Transferencias Externas&#xa;(Entre diferentes bancos)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2949" y="878" width="242" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-203" value="Notificación por Email&#xa;(Envío de correos electrónicos)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4644" y="1351" width="219" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-204" value="Notificación Push&#xa;(Alertas en tiempo real)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5706" y="1359" width="233" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-205" value="Registro de Eventos&#xa;(Captura de actividades del usuario y del sistema)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4141" y="870" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-206" value="Generación de Reportes&#xa;(Cumplimiento normativo)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4449" y="878" width="249" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-207" value="Captura de Métricas&#xa;(CloudWatch, Prometheus)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5697" y="896" width="251" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-208" value="Servicio de Alertas&#xa;(Notificaciones de incidentes críticos)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5724" y="1102" width="197" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-209" value="Base de Datos Core (Amazon RDS)&#xa;Datos bancarios y financieros" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1093.5" width="198" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-210" value="Base de Datos de Auditoría (DynamoDB)&#xa;Registros de actividades" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1090" width="252" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-211" value="Base de Datos de Cache (Redis)&#xa;Datos frecuentes en memoria" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1093.5" width="230" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-212" value="Accede a" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-187" target="WLLvC_L1UWk7oZmuiwC_-188">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4617" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-213" value="Accede a" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-187" target="WLLvC_L1UWk7oZmuiwC_-189">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4890" y="342" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-214" value="Solicitudes de operaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.11;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-188" target="WLLvC_L1UWk7oZmuiwC_-190">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4617" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-215" value="Solicitudes de operaciones y onboarding" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.89;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-189" target="WLLvC_L1UWk7oZmuiwC_-190">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4890" y="637" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-216" value="Autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-191">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5450" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-217" value="Gestión de cuentas" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.54;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-195">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1845" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-218" value="Información del cliente" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.58;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-198">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3388" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-219" value="Transferencias bancarias" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.55;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-201">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2776" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-220" value="Envío de notificaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-203">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-221" value="Registro de actividades" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-205">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4270" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-222" value="Monitoreo de servicios" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.61;entryX=0.34;entryY=0.01;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-207">
+          <mxGeometry x="0.1677" y="-6" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5733" y="800" />
+              <mxPoint x="5733" y="836" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-223" value="MFA" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-191" target="WLLvC_L1UWk7oZmuiwC_-192">
+          <mxGeometry x="-0.5725" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-224" value="Llamado a la base de datos por el BackEnd" style="curved=1;startArrow=none;endArrow=block;exitX=0.001;exitY=0.459;entryX=1;entryY=0.41;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-177" target="WLLvC_L1UWk7oZmuiwC_-209">
+          <mxGeometry x="-0.3148" y="64" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1400" y="850" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-225" value="Almacenamiento de logs" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.46;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-205" target="WLLvC_L1UWk7oZmuiwC_-210">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4270" y="1059" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-226" value="Supervisión continua" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=0.01;entryX=1;entryY=0.59;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-207" target="WLLvC_L1UWk7oZmuiwC_-190">
+          <mxGeometry x="-0.5062" y="3" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5912" y="836" />
+              <mxPoint x="5912" y="800" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-227" value="Envía Alertas" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-208" target="WLLvC_L1UWk7oZmuiwC_-204">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLLvC_L1UWk7oZmuiwC_-228" value="Proceso de Onboarding" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="WLLvC_L1UWk7oZmuiwC_-190" target="WLLvC_L1UWk7oZmuiwC_-184">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lIc4TSHpeXeCIRGXtLM9" name="DFrontCompSPA">
+    <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="48rW4YA2lofZfJz7IELk-1" value="Módulo de Usuarios - SPA (Single-Page Application)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="981" height="1747" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-2" value="Componentes de Interfaz de Usuario&#xa;(Formularios, botones, menús)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="237" y="244" width="241" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-3" value="Enrutador&#xa;(Control de navegación entre páginas)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="51" y="659" width="226" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-4" value="Módulo de Autenticación&#xa;(Gestión de inicio de sesión y tokens)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="168" y="857" width="257" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-5" value="Servicio de Datos&#xa;(Comunicación con el API Gateway)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="561" y="1056" width="241" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-6" value="Gestión de Estado&#xa;(Redux, NgRx, etc.)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="57" y="1427" width="201" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-7" value="Manejador de Notificaciones&#xa;(Recepción de notificaciones en tiempo real)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="562" y="1599" width="238" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-8" value="Módulo de Seguridad&#xa;(Protección contra ataques comunes)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="551" y="460" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-9" value="Soporte Offline&#xa;(Funcionalidad sin conexión)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="764" y="857" width="190" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-10" value="Manejador de Errores&#xa;(Captura y manejo de errores)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="249" y="46" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-11" value="Auditoría&#xa;(Registro de actividades para cumplimiento)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="716" y="1237" width="232" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-12" value="Monitoreo y Alerta&#xa;(Supervisión de eventos y métricas)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="711" y="1418" width="243" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-13" value="Onboarding&#xa;(Verificación de identidad y creación de perfil)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="48rW4YA2lofZfJz7IELk-1">
+          <mxGeometry x="327" y="659" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-2" target="48rW4YA2lofZfJz7IELk-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="164" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.28;entryY=0.01;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-3" target="48rW4YA2lofZfJz7IELk-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="164" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.13;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-4" target="48rW4YA2lofZfJz7IELk-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-17" value="Actualiza" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-5" target="48rW4YA2lofZfJz7IELk-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="1188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.29;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-6" target="48rW4YA2lofZfJz7IELk-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-19" value="Aplica políticas de seguridad" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=1;entryX=0.58;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-8" target="48rW4YA2lofZfJz7IELk-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="601" />
+              <mxPoint x="729" y="999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-20" value="Proporciona datos actualizados" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.9;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-2" target="48rW4YA2lofZfJz7IELk-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="678" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-21" value="Sincroniza datos con backend" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.81;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-9" target="48rW4YA2lofZfJz7IELk-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="859" y="999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-22" value="Captura errores y notifica al usuario" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-10" target="48rW4YA2lofZfJz7IELk-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-23" value="Registra operaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-5" target="48rW4YA2lofZfJz7IELk-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="1188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-24" value="Almacena eventos críticos" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-11" target="48rW4YA2lofZfJz7IELk-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-25" value="Genera alertas" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.85;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-12" target="48rW4YA2lofZfJz7IELk-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-26" value="Verificación de identidad" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.76;entryY=0.01;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-13" target="48rW4YA2lofZfJz7IELk-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="456" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-27" value="Flujo de registro de usuario" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=1;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-2" target="48rW4YA2lofZfJz7IELk-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="371" y="403" />
+              <mxPoint x="371" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="48rW4YA2lofZfJz7IELk-28" value="Protege solicitudes de onboarding" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=1;entryX=0.71;entryY=0;rounded=0;" edge="1" parent="48rW4YA2lofZfJz7IELk-1" source="48rW4YA2lofZfJz7IELk-8" target="48rW4YA2lofZfJz7IELk-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="588" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9ZNZ-ZZWhVIO52cWnnU8" name="DFrontcompMobil">
+    <mxGraphModel dx="1750" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-1" value="Módulo de Usuarios - Aplicación Móvil (Flutter/React Native)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="941" height="1531" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-2" value="Interfaz de Usuario Móvil&#xa;(Pantallas, botones, navegación)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="593" y="244" width="239" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-3" value="Módulo de Autenticación&#xa;(Gestión de inicio de sesión y tokens en móviles)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="456" y="624" width="257" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-4" value="Manejador de Notificaciones Push&#xa;(Recepción de notificaciones en tiempo real)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="676" y="1383" width="238" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-5" value="Módulo de Seguridad&#xa;(Protección contra ataques móviles)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="290" y="244" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-6" value="Servicio de Datos&#xa;(Comunicación con el API Gateway)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="314" y="822" width="241" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-7" value="Soporte Offline&#xa;(Sincronización de datos cuando no hay conexión)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="44" y="624" width="238" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-8" value="Gestión de Estado&#xa;(Provider, Bloc, Redux, etc.)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="47" y="1021" width="223" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-9" value="Manejador de Errores&#xa;(Captura y manejo de errores en la app)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="605" y="46" width="216" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-10" value="Auditoría&#xa;(Registro de actividades para cumplimiento)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="586" y="1021" width="232" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-11" value="Monitoreo y Alerta&#xa;(Supervisión de eventos y métricas)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="580" y="1202" width="243" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-12" value="Onboarding&#xa;(Verificación de identidad y creación de perfil)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="fskOWZTXfD3ZjDM6Y2cX-1">
+          <mxGeometry x="112" y="443" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-13" value="Inicia el flujo de autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0.82;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-2" target="fskOWZTXfD3ZjDM6Y2cX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="763" y="385" />
+              <mxPoint x="763" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.65;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-2" target="fskOWZTXfD3ZjDM6Y2cX-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="862" y="385" />
+              <mxPoint x="862" y="1334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-15" value="Gestiona la seguridad de la autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=0.77;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-5" target="fskOWZTXfD3ZjDM6Y2cX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="583" y="385" />
+              <mxPoint x="583" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-16" value="Envía solicitudes autenticadas" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.76;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-3" target="fskOWZTXfD3ZjDM6Y2cX-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-17" value="Sincroniza datos con el backend" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.02;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-7" target="fskOWZTXfD3ZjDM6Y2cX-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-18" value="Actualiza el estado de la app" style="curved=1;startArrow=none;endArrow=block;exitX=0.02;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-6" target="fskOWZTXfD3ZjDM6Y2cX-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-19" value="Captura errores y muestra mensajes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-9" target="fskOWZTXfD3ZjDM6Y2cX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-20" value="Registra operaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.97;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-6" target="fskOWZTXfD3ZjDM6Y2cX-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-21" value="Almacena eventos críticos" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-10" target="fskOWZTXfD3ZjDM6Y2cX-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-22" value="Genera alertas" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.28;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-11" target="fskOWZTXfD3ZjDM6Y2cX-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="1334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-23" value="Verificación de identidad" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.09;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-12" target="fskOWZTXfD3ZjDM6Y2cX-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="242" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-24" value="Flujo de registro de usuario" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.74;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-2" target="fskOWZTXfD3ZjDM6Y2cX-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fskOWZTXfD3ZjDM6Y2cX-25" value="Protege solicitudes de onboarding" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.34;entryY=0;rounded=0;" edge="1" parent="fskOWZTXfD3ZjDM6Y2cX-1" source="fskOWZTXfD3ZjDM6Y2cX-5" target="fskOWZTXfD3ZjDM6Y2cX-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="141" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k_bBawmo_WQawXivQVQI" name="DBackcompgateway">
+    <mxGraphModel dx="2333" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VVka1OtDch83aKGIr0AI-1" value="Databases" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1914" y="360" width="302" height="618" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-2" value="Backend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1371" y="110" width="309" height="1082" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-3" value="Frontend" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="598" width="567" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-4" value="Single-Page Application (SPA)&#xa;(Angular/React)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-3">
+          <mxGeometry x="43" y="46" width="227" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-5" value="Aplicación Móvil&#xa;(Flutter/React Native)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-3">
+          <mxGeometry x="320" y="54" width="221" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-6" value="API Gateway (Amazon API Gateway)&#xa;Gestión centralizada de solicitudes del frontend" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="800" y="281" width="326" height="793" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-7" value="Manejador de Rutas&#xa;(Gestión de enrutamiento)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-6">
+          <mxGeometry x="46" y="46" width="251" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-8" value="Middleware de Autenticación&#xa;(Validación de tokens y autorización)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-6">
+          <mxGeometry x="58" y="187" width="227" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-9" value="Limitador de Tasa&#xa;(Control de solicitudes por usuario)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-6">
+          <mxGeometry x="45" y="363" width="251" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-10" value="Capa de Cache&#xa;(Almacenamiento temporal de respuestas)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-6">
+          <mxGeometry x="43" y="521" width="256" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-11" value="Registro de Actividad&#xa;(Captura de logs y monitoreo de tráfico)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VVka1OtDch83aKGIr0AI-6">
+          <mxGeometry x="64" y="680" width="215" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VVka1OtDch83aKGIr0AI-6" source="VVka1OtDch83aKGIr0AI-7" target="VVka1OtDch83aKGIr0AI-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VVka1OtDch83aKGIr0AI-6" source="VVka1OtDch83aKGIr0AI-8" target="VVka1OtDch83aKGIr0AI-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VVka1OtDch83aKGIr0AI-6" source="VVka1OtDch83aKGIr0AI-9" target="VVka1OtDch83aKGIr0AI-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VVka1OtDch83aKGIr0AI-6" source="VVka1OtDch83aKGIr0AI-10" target="VVka1OtDch83aKGIr0AI-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-16" value="Servicio de Autenticación&#xa;(AWS Cognito)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="145" width="242" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-17" value="Servicio de Onboarding&#xa;(Verificación de identidad y registro)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1396" y="261" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-18" value="Servicio Core Bancario&#xa;(ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="395" width="221" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-19" value="Servicio de Detalles del Cliente&#xa;(ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1412" y="511" width="229" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-20" value="Servicio de Transferencias&#xa;(ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1403" y="644" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-21" value="Servicio de Notificaciones&#xa;(SNS/SES)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1403" y="760" width="245" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-22" value="Servicio de Auditoría&#xa;(ECS/EKS)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1422" y="876" width="208" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-23" value="Monitoreo y Alerta" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1429" y="992" width="193" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-24" value="Servicio de Cache&#xa;(Amazon ElastiCache)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1418" y="1091" width="215" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-25" value="Base de Datos Core (Amazon RDS)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1966" y="395" width="198" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-26" value="Base de Datos de Auditoría (DynamoDB)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1939" y="876" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-27" value="Acceso a datos bancarios" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-18" target="VVka1OtDch83aKGIr0AI-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-28" value="Registro de actividades" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-22" target="VVka1OtDch83aKGIr0AI-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-29" value="Solicitudes del cliente" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-3" target="VVka1OtDch83aKGIr0AI-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-30" value="Autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.14;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="178" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-31" value="Proceso de Onboarding" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.23;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-32" value="Operaciones bancarias" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.32;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-33" value="Consulta de detalles del cliente" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.41;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-34" value="Transferencias" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-35" value="Envía notificaciones" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.58;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="793" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-36" value="Registra actividades" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="909" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-37" value="Consulta y actualiza cache" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.82;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="1124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVka1OtDch83aKGIr0AI-38" value="Registro de tráfico" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.74;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="VVka1OtDch83aKGIr0AI-6" target="VVka1OtDch83aKGIr0AI-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1249" y="1016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fBHKEL7_NdVhd3i28-Tk" name="DBackcompAutenticacion">
+    <mxGraphModel dx="1500" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-250" value="Otros Servicios" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1549" y="50" width="295" height="414" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-251" value="Servicio de Autenticación AWS Cognito&#xa;Gestión de autenticación y autorización" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="165" width="328" height="828" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-252" value="Gestor de Tokens&#xa;Generación y validación de tokens de acceso" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VdezdIY-6nsaFDQTmSHF-251">
+          <mxGeometry x="45" y="46" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-253" value="Autenticación Multifactor MFA&#xa;Verificación adicional de seguridad" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VdezdIY-6nsaFDQTmSHF-251">
+          <mxGeometry x="50" y="204" width="245" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-254" value="Directorio de Usuarios&#xa;Almacenamiento de credenciales y perfiles" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VdezdIY-6nsaFDQTmSHF-251">
+          <mxGeometry x="61" y="380" width="222" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-255" value="Gestión de Sesiones&#xa;Creación y terminación de sesiones de usuario" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VdezdIY-6nsaFDQTmSHF-251">
+          <mxGeometry x="47" y="539" width="249" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-256" value="Recuperación de Contraseña&#xa;Restablecimiento seguro de contraseñas" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="VdezdIY-6nsaFDQTmSHF-251">
+          <mxGeometry x="43" y="697" width="258" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-257" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VdezdIY-6nsaFDQTmSHF-251" source="VdezdIY-6nsaFDQTmSHF-252" target="VdezdIY-6nsaFDQTmSHF-253">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-258" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VdezdIY-6nsaFDQTmSHF-251" source="VdezdIY-6nsaFDQTmSHF-253" target="VdezdIY-6nsaFDQTmSHF-254">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-259" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VdezdIY-6nsaFDQTmSHF-251" source="VdezdIY-6nsaFDQTmSHF-254" target="VdezdIY-6nsaFDQTmSHF-255">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-260" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="VdezdIY-6nsaFDQTmSHF-251" source="VdezdIY-6nsaFDQTmSHF-255" target="VdezdIY-6nsaFDQTmSHF-256">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-261" value="Cliente SPA/Móvil" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1603" y="505" width="186" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-262" value="API Gateway Amazon API Gateway&#xa;Gestión de solicitudes" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="487" width="238" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-263" value="Servicio de Onboarding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1584" y="85" width="225" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-264" value="Servicio Core Bancario" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="183" width="221" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-265" value="Servicio de Notificaciones" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1574" y="282" width="245" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-266" value="Servicio de Auditoría" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1592" y="380" width="208" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-267" value="Base de Datos de Usuarios DynamoDB&#xa;Almacenamiento de información de usuarios" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1061" y="621" width="247" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-268" value="Base de Datos de Auditoría DynamoDB&#xa;Registro de eventos de autenticación" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2057" y="354" width="252" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-269" value="Solicitud de autenticación o datos" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.57;entryX=1;entryY=0.53;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-261" target="VdezdIY-6nsaFDQTmSHF-262">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1549" y="535" />
+              <mxPoint x="1428" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-270" value="Solicitud de autenticación o datos" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=1;entryY=0.88;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-261" target="VdezdIY-6nsaFDQTmSHF-262">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1549" y="595" />
+              <mxPoint x="1428" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-271" value="Respuesta final" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.24;entryX=0.08;entryY=-0.01;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-262" target="VdezdIY-6nsaFDQTmSHF-261">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1428" y="484" />
+              <mxPoint x="1549" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-272" value="Almacena registros de autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-266" target="VdezdIY-6nsaFDQTmSHF-268">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-273" value="Validación de autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.53;entryX=1;entryY=0.47;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-262" target="VdezdIY-6nsaFDQTmSHF-251">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="934" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-274" value="Respuesta de autenticación" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.44;entryX=0;entryY=0.29;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-251" target="VdezdIY-6nsaFDQTmSHF-262">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="934" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-275" value="Interacción con otros servicios" style="curved=1;startArrow=none;endArrow=block;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-262" target="VdezdIY-6nsaFDQTmSHF-250">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdezdIY-6nsaFDQTmSHF-276" value="Accede a usuarios" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.56;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="VdezdIY-6nsaFDQTmSHF-251" target="VdezdIY-6nsaFDQTmSHF-267">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="934" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BEOSELTc4QZy0jOLBWj9" name="DBackcompOnBoarding">
+    <mxGraphModel dx="2390" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WnMbY2L3F2B0F0425GXo-153" value="Servicio de Onboarding (ECS/EKS)&#xa;Registro inicial de clientes" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="120" width="1219" height="404" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-154" value="Verificación de Identidad&#xa;(Reconocimiento facial, documentos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="190" y="340" width="241" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-155" value="Creación de Perfil&#xa;(Registro de la cuenta del cliente)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="520" y="340" width="245" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-156" value="Verificación KYC&#xa;(Cumplimiento de normativas)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="993" y="206" width="188" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-157" value="Gestión de Consentimiento&#xa;(Aceptación de términos y condiciones)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="961" y="340" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-158" value="API Gateway (Amazon API Gateway)&#xa;Enrutamiento de solicitudes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="910" y="620" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-159" value="Base de Datos de Onboarding (Amazon RDS)&#xa;Almacenamiento de datos de registro" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1493" y="172" width="247" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-160" value="Cliente (Usuario SPA/Móvil)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="585" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-161" value="Inicia solicitud de registro" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=1;entryY=0.7;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-160" target="WnMbY2L3F2B0F0425GXo-158" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="635" />
+              <mxPoint x="1239" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-162" value="Guarda datos en la DB" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0;entryX=0;entryY=0.2;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-155" target="WnMbY2L3F2B0F0425GXo-159" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="863" y="160" />
+              <mxPoint x="1364" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-163" value="Actualiza estado en DB" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.62;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-156" target="WnMbY2L3F2B0F0425GXo-159" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-164" value="Registra consentimiento en DB" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.17;entryY=1;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-157" target="WnMbY2L3F2B0F0425GXo-159" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1364" y="382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-165" value="Devuelve resultado final al cliente" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.24;entryX=0;entryY=0.17;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-158" target="WnMbY2L3F2B0F0425GXo-160" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1239" y="577" />
+              <mxPoint x="1364" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-166" value="Redirige solicitud" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-158" target="WnMbY2L3F2B0F0425GXo-153" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnMbY2L3F2B0F0425GXo-172" value="Envía notificación y registra auditoría" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="WnMbY2L3F2B0F0425GXo-153" target="WnMbY2L3F2B0F0425GXo-158" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y_UeM-MoBg2pfd9rtVaf" name="DBackcompCoreBancario">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BQj2vZssD3qrgZYKECdA-1" value="Servicio Core Bancario (ECS/EKS)&#xa;Operaciones bancarias principales" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="45" y="20" width="771" height="439" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-2" value="Gestión de Cuentas&#xa;(Creación, modificación y cierre de cuentas)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="45" y="266" width="245" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-3" value="Procesamiento de Transacciones&#xa;(Transferencias, pagos, movimientos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="531" y="115" width="226" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-4" value="Consulta de Saldos&#xa;(Verificación de saldo en tiempo real)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="525" y="266" width="237" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-5" value="API Gateway (Amazon API Gateway)&#xa;Enrutamiento de solicitudes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="521.5" y="540" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-6" value="Base de Datos Core (Amazon RDS)&#xa;Almacenamiento de datos bancarios y transacciones" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1038" y="94" width="247" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-7" value="Cliente (Usuario SPA/Móvil)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1033.5" y="561" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-8" value="Inicia solicitud de operación bancaria" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=1;entryY=0.75;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-7" target="BQj2vZssD3qrgZYKECdA-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="912" y="575" />
+              <mxPoint x="791" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-9" value="Lee y escribe datos de cuentas" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=0;entryX=0;entryY=0.09;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-2" target="BQj2vZssD3qrgZYKECdA-6" edge="1">
+          <mxGeometry x="0.2543" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="60" />
+              <mxPoint x="912" y="60" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-10" value="Actualiza transacciones" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.6;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-3" target="BQj2vZssD3qrgZYKECdA-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="912" y="166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-11" value="Consulta información de saldo" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.19;entryY=1;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-4" target="BQj2vZssD3qrgZYKECdA-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="912" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-12" value="Responde al cliente con el resultado" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.23;entryX=0;entryY=0.15;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-5" target="BQj2vZssD3qrgZYKECdA-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="512" />
+              <mxPoint x="912" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-13" value="Redirige solicitud al servicio core" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-5" target="BQj2vZssD3qrgZYKECdA-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BQj2vZssD3qrgZYKECdA-17" value="Devuelve resultado de la operación" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="BQj2vZssD3qrgZYKECdA-1" target="BQj2vZssD3qrgZYKECdA-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XIvh6evIsF56rH5pCBgt" name="DBakcompDetallesCliente">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-1" value="Servicio de Detalles del Cliente (ECS/EKS)&#xa;Provisión de información adicional del cliente" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="747" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-2" value="Información Personal&#xa;(Nombre, fecha de nacimiento, dirección)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="45" y="257" width="223" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-3" value="Detalles de Contacto&#xa;(Teléfono, correo electrónico, dirección postal)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="509" y="106" width="218" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-4" value="Verificación KYC&#xa;(Conozca a su cliente, cumplimiento regulatorio)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="494" y="257" width="248" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-5" value="API Gateway (Amazon API Gateway)&#xa;Enrutamiento de solicitudes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="496" y="534" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-6" value="Base de Datos del Cliente (Amazon RDS)&#xa;Almacenamiento de información detallada del cliente" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1022" y="67" width="245" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-7" value="Cliente (Usuario SPA/Móvil)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1022" y="550" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-8" value="Solicita información del cliente" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=1;entryY=0.75;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-7" target="awDYp8EuX_AnoIsS4bpB-5" edge="1">
+          <mxGeometry x="0.0638" y="14" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="892" y="566" />
+              <mxPoint x="767" y="566" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-9" value="Accede a la base de datos" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0;entryY=0.23;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-2" target="awDYp8EuX_AnoIsS4bpB-6" edge="1">
+          <mxGeometry x="0.1774" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="60" />
+              <mxPoint x="892" y="60" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-10" value="Lee datos de contacto" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.62;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-3" target="awDYp8EuX_AnoIsS4bpB-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="892" y="157" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-11" value="Actualiza estado KYC" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.14;entryY=1;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-4" target="awDYp8EuX_AnoIsS4bpB-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="892" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-12" value="Responde al cliente con los detalles" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.24;entryX=0;entryY=0.15;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-5" target="awDYp8EuX_AnoIsS4bpB-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="503" />
+              <mxPoint x="892" y="503" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-13" value="Redirige solicitud al servicio" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-5" target="awDYp8EuX_AnoIsS4bpB-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awDYp8EuX_AnoIsS4bpB-17" value="Devuelve información solicitada" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="awDYp8EuX_AnoIsS4bpB-1" target="awDYp8EuX_AnoIsS4bpB-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_9hVI8LQeNdj5V4UNB5v" name="DBackcompTrasnferencias">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="84V6UWjNfawhO-2OElwW-39" value="Servicio de Transferencias (ECS/EKS)&#xa;Gestión de transferencias de fondos" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="200" y="340" width="784" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-40" value="Transferencias Internas&#xa;(Entre cuentas del mismo banco)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="225" y="560" width="243" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-41" value="Transferencias Externas&#xa;(Entre diferentes bancos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="708" y="569" width="242" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-42" value="Validación de Transacciones&#xa;(Reglas de negocio y límites)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="700" y="375" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-43" value="API Gateway (Amazon API Gateway)&#xa;Enrutamiento de solicitudes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="707" y="895" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-44" value="Base de Datos Core (Amazon RDS)&#xa;Almacenamiento de transacciones" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1259" y="415" width="203" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-45" value="Servicio de Notificaciones (SNS/SES)&#xa;Envío de notificaciones" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1238" y="740" width="245" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-46" value="Servicio de Auditoría (ECS/EKS)&#xa;Registro de actividades" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1248" y="873" width="226" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-47" value="Cliente (Usuario SPA/Móvil)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1233" y="1007" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-48" value="Solicita transferencia" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0.79;entryY=1;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-47" target="84V6UWjNfawhO-2OElwW-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1108" y="1057" />
+              <mxPoint x="984" y="1057" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-49" value="Accede a la base de datos" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.3;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-42" target="84V6UWjNfawhO-2OElwW-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1108" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-50" value="Actualiza transacción en la DB" style="curved=1;startArrow=none;endArrow=block;exitX=0.96;exitY=0;entryX=0;entryY=0.69;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-40" target="84V6UWjNfawhO-2OElwW-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="584" y="514" />
+              <mxPoint x="1108" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-51" value="Registra transacción en la DB" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0.04;entryY=1;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-41" target="84V6UWjNfawhO-2OElwW-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1108" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-52" value="Llama al servicio de notificaciones" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=0;entryY=0.5;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-43" target="84V6UWjNfawhO-2OElwW-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="782" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-53" value="Registra en el servicio de auditoría" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.26;entryX=0;entryY=0.5;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-43" target="84V6UWjNfawhO-2OElwW-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-54" value="Responde al cliente con el resultado de la transacción" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0;entryY=0.21;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-43" target="84V6UWjNfawhO-2OElwW-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="1003" />
+              <mxPoint x="1108" y="1003" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-55" value="Redirige solicitud al servicio" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-43" target="84V6UWjNfawhO-2OElwW-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="84V6UWjNfawhO-2OElwW-59" value="Devuelve resultado de la transferencia" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="84V6UWjNfawhO-2OElwW-39" target="84V6UWjNfawhO-2OElwW-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Qw5GqNNeVH4p2QAFu8KX" name="DBackcompNotificaciones">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-17" value="Servicio de Notificaciones (SNS/SES)&#xa;Envío de alertas y notificaciones" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="936" y="20" width="798" height="451" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-18" value="Gateway de Notificaciones&#xa;(Enrutamiento de solicitudes)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="964" y="278" width="251" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-19" value="Notificación por Email&#xa;(Amazon SES)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1474" y="55" width="219" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-20" value="Notificación Push&#xa;(Amazon SNS)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1474" y="171" width="216" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-21" value="Notificación SMS&#xa;(Amazon SNS)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1476" y="287" width="214" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-22" value="API Gateway (Amazon API Gateway)&#xa;Enrutamiento de solicitudes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="460" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-23" value="Base de Datos de Notificaciones&#xa;(Amazon RDS)&#xa;Almacenamiento de registros de notificación" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1467" y="625" width="234" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-24" value="Servicio de Monitoreo y Alerta&#xa;(CloudWatch, Prometheus)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="625" width="251" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-25" value="Cliente (Usuario SPA/Móvil)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="961" y="521" width="256" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-26" value="Genera evento de notificación" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=1;entryY=0.82;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-25" target="wPnvYccFDN02Rcz3LbUj-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="936" y="571" />
+              <mxPoint x="830" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-27" value="Envía notificación por email" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=0;entryY=0.5;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-18" target="wPnvYccFDN02Rcz3LbUj-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1338" y="88" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-28" value="Envía notificación push" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=0;entryX=0;entryY=0.5;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-18" target="wPnvYccFDN02Rcz3LbUj-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1338" y="204" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-29" value="Envía notificación SMS" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-18" target="wPnvYccFDN02Rcz3LbUj-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-30" value="Registra notificación en la DB" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.81;entryX=0.18;entryY=0;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-18" target="wPnvYccFDN02Rcz3LbUj-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1338" y="371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-31" value="Envía métricas de monitoreo" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.35;entryY=0;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-18" target="wPnvYccFDN02Rcz3LbUj-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1338" y="431" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-32" value="Devuelve estado de la notificación" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.08;entryY=0;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-22" target="wPnvYccFDN02Rcz3LbUj-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="936" y="511" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-33" value="Redirige solicitud al servicio" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-22" target="wPnvYccFDN02Rcz3LbUj-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPnvYccFDN02Rcz3LbUj-36" value="Respuesta de Servicio de Notificaciones" style="curved=1;startArrow=none;endArrow=block;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.005;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="wPnvYccFDN02Rcz3LbUj-17" target="wPnvYccFDN02Rcz3LbUj-22" edge="1">
+          <mxGeometry x="-0.1839" y="46" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="240" />
+            </Array>
+            <mxPoint x="670" y="376" as="sourcePoint" />
+            <mxPoint x="882" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CvfVQVt4Ie78n_uOQUw_" name="DBackcompAuditoria">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-1" value="Servicio de Auditoría (ECS/EKS)&#xa;Registro y monitoreo de actividades" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="490" y="211" width="967" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-2" value="Logger de Eventos&#xa;(Captura de acciones del usuario y del sistema)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1151.5" y="270" width="238" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-3" value="Gestor de Cumplimiento&#xa;(Verificación de normativas)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="840" y="270" width="235" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-4" value="Generador de Reportes&#xa;(Creación de informes de auditoría)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="530" y="270" width="241" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-5" value="API Gateway (Amazon API Gateway)&#xa;Enrutamiento de solicitudes y generación de eventos" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1143" y="20" width="255" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-6" value="Base de Datos de Auditoría (Amazon DynamoDB)&#xa;Almacenamiento de registros" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="816" y="484" width="252" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-7" value="Servicio de Monitoreo y Alerta&#xa;(CloudWatch, Prometheus)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="484" width="251" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-8" value="Genera reportes periódicos" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.13;rounded=0;" parent="1" source="tHOLwZSYCOupnJUIIt0E-4" target="tHOLwZSYCOupnJUIIt0E-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-9" value="Verifica cumplimiento" style="curved=1;startArrow=none;endArrow=block;exitX=0.248;exitY=0.952;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.313;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tHOLwZSYCOupnJUIIt0E-3" target="tHOLwZSYCOupnJUIIt0E-6" edge="1">
+          <mxGeometry x="0.0477" y="1" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="891.25" y="476" />
+            </Array>
+            <mxPoint x="890" y="360" as="sourcePoint" />
+            <mxPoint x="891.25" y="486" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-10" value="Envía eventos de auditoría" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="tHOLwZSYCOupnJUIIt0E-5" target="tHOLwZSYCOupnJUIIt0E-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-11" value="Registra evento en la DB" style="curved=1;startArrow=none;endArrow=block;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.811;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tHOLwZSYCOupnJUIIt0E-3" target="tHOLwZSYCOupnJUIIt0E-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1030" y="390" as="sourcePoint" />
+            <mxPoint x="1016" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tHOLwZSYCOupnJUIIt0E-12" value="Envía métricas y alertas" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="tHOLwZSYCOupnJUIIt0E-1" target="tHOLwZSYCOupnJUIIt0E-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="caM_uul0gzyEdYb0mFGC" name="DBackAlertaMonitoreo">
+    <mxGraphModel dx="1877" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-1" value="Servicio de Monitoreo y Alerta (ECS/EKS)&#xa;Supervisión en tiempo real y gestión de alertas" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="302" y="50" width="757" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-2" value="Recolector de Métricas&#xa;(Captura de datos en tiempo real)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="568.5" y="135" width="224" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-3" value="Gestor de Alertas&#xa;(Generación de alertas automáticas)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="330" y="135" width="224" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-4" value="Registro de Incidentes&#xa;(Documenta eventos críticos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="820" y="135" width="219" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-5" value="API Gateway (Amazon API Gateway)&#xa;Generación de eventos de monitoreo" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="114.5" width="247" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-6" value="Base de Datos de Monitoreo (Amazon RDS)&#xa;Almacenamiento de métricas e incidentes" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="212" y="370" width="259" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-7" value="Servicio de Notificaciones (SNS/SES)&#xa;Notificación de alertas críticas" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="558" y="370" width="245" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-8" value="Servicio de Auditoría (ECS/EKS)&#xa;Registro de actividades para auditoría" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="869" y="370" width="226" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-9" value="Genera eventos de monitoreo" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="jsJPtwvmLoqc2tumkhCP-5" target="jsJPtwvmLoqc2tumkhCP-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-10" value="Registra métricas y eventos" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="jsJPtwvmLoqc2tumkhCP-1" target="jsJPtwvmLoqc2tumkhCP-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-11" value="Envía alertas a usuarios/administradores" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="jsJPtwvmLoqc2tumkhCP-1" target="jsJPtwvmLoqc2tumkhCP-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsJPtwvmLoqc2tumkhCP-12" value="Documenta eventos críticos" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="jsJPtwvmLoqc2tumkhCP-1" target="jsJPtwvmLoqc2tumkhCP-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Pyjz_OKU5or0epOASbqb" name="DBackCache">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-mUKFykN540d9qGiCg8V-1" value="Servicio de Cache (Amazon ElastiCache)&#xa;Optimización de acceso a datos en memoria" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="289" y="20" width="780" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-2" value="Gestor de Cache&#xa;(Administración de datos en memoria)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="537" y="201" width="239" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-3" value="Replicación de Datos&#xa;(Sincronización entre nodos de cache)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="776" y="90" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-4" value="Política de Expulsión&#xa;(Gestión de eliminación de datos antiguos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="310" y="90" width="253" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-5" value="API Gateway (Amazon API Gateway)&#xa;Intermediario para solicitudes de cache" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="225" y="400" width="244" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-6" value="Base de Datos Core (Amazon RDS)&#xa;Datos primarios del sistema" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="550" y="417" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-7" value="Servicio de Monitoreo y Alerta&#xa;(Supervisión de uso de cache)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="935" y="400" width="229" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-8" value="Solicitud de Usuario&#xa;(Consulta o transacción)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="20" y="210" width="234" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-9" value="Realiza solicitud" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.05;entryY=0;rounded=0;" parent="1" source="-mUKFykN540d9qGiCg8V-8" target="-mUKFykN540d9qGiCg8V-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="137" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-10" value="Gestiona la memoria" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.03;entryY=0;rounded=0;" parent="1" source="-mUKFykN540d9qGiCg8V-4" target="-mUKFykN540d9qGiCg8V-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-11" value="Consulta en cache" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="-mUKFykN540d9qGiCg8V-5" target="-mUKFykN540d9qGiCg8V-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-12" value="Retorna datos si existe en cache" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="-mUKFykN540d9qGiCg8V-1" target="-mUKFykN540d9qGiCg8V-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-13" value="Actualiza o agrega datos en caso de fallo" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="-mUKFykN540d9qGiCg8V-1" target="-mUKFykN540d9qGiCg8V-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mUKFykN540d9qGiCg8V-14" value="Envía métricas de uso y errores" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="-mUKFykN540d9qGiCg8V-1" target="-mUKFykN540d9qGiCg8V-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="09D1g3S4LPhs6hwxU9vZ" name="BaseDatosCore">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-37" value="Base de Datos Core (Amazon RDS)&#xa;Almacenamiento principal de datos bancarios" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="260" y="374" width="970" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-38" value="Motor de Base de Datos (PostgreSQL/MySQL)&#xa;Soporta transacciones y consultas SQL" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="593" y="660" width="230" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-39" value="Servicio de Backup&#xa;Copia de seguridad automatizada" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="410" y="450" width="196" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-40" value="Replica de Lectura&#xa;Mejora el rendimiento de consultas" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="660" y="450" width="242" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-41" value="Mecanismo de Failover&#xa;Tolerancia a fallos y recuperación" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="940" y="450" width="223" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-42" value="API Gateway&#xa;(Intermediario para solicitudes de servicios)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="26" y="290" width="208" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-43" value="Servicios de BackEnd" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="20" y="472" width="221" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-44" value="Monitoreo y Alerta&#xa;(Supervisión del rendimiento)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="611.5" y="910" width="193" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-45" value="Redirige solicitud" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="4sBmx7Y6iBa8gvzb1lLJ-42" target="4sBmx7Y6iBa8gvzb1lLJ-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-46" value="Realiza consultas y transacciones" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0;entryY=0.17;rounded=0;" parent="1" source="4sBmx7Y6iBa8gvzb1lLJ-43" target="4sBmx7Y6iBa8gvzb1lLJ-38" edge="1">
+          <mxGeometry x="-0.246" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="602" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-47" value="Envío de métricas de uso" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="4sBmx7Y6iBa8gvzb1lLJ-38" target="4sBmx7Y6iBa8gvzb1lLJ-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-48" value="Realiza copias de seguridad" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.19;entryY=0;rounded=0;" parent="1" source="4sBmx7Y6iBa8gvzb1lLJ-39" target="4sBmx7Y6iBa8gvzb1lLJ-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-49" value="Sincroniza datos con el motor principal" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.81;entryY=0;rounded=0;" parent="1" source="4sBmx7Y6iBa8gvzb1lLJ-40" target="4sBmx7Y6iBa8gvzb1lLJ-38" edge="1">
+          <mxGeometry x="0.0064" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="602" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4sBmx7Y6iBa8gvzb1lLJ-50" value="Activa en caso de fallo" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.24;rounded=0;" parent="1" source="4sBmx7Y6iBa8gvzb1lLJ-41" target="4sBmx7Y6iBa8gvzb1lLJ-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1107" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gV1N6LKeCZeAsJ6ID3y3" name="BaseDatosAuditoria">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-25" value="Base de Datos de Auditoría (Amazon DynamoDB)&#xa;Registros de actividades y auditorías" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="109" y="195" width="625" height="519" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-26" value="Almacenamiento de Eventos&#xa;Registra todas las acciones del sistema" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="306.5" y="250" width="252" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-27" value="Verificación de Cumplimiento&#xa;Generación de reportes para auditoría" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="318" y="410" width="229" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-28" value="Política de Retención de Datos&#xa;Gestión de almacenamiento a largo plazo" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="315" y="569" width="234" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-29" value="API Gateway&#xa;(Intermediario para solicitudes de datos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="328" y="20" width="208" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-30" value="Servicio de Auditoría&#xa;(Captura de actividades del sistema)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-31" value="Monitoreo y Alerta&#xa;(Supervisión de actividades y alertas críticas)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="586" y="20" width="255" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-32" value="Guarda eventos de auditoría" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.17;rounded=0;" parent="1" source="e6oL1a-Md3bHTlAYgt7A-30" target="e6oL1a-Md3bHTlAYgt7A-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="149" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-33" value="Generación de reportes" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="e6oL1a-Md3bHTlAYgt7A-26" target="e6oL1a-Md3bHTlAYgt7A-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-34" value="Aplica políticas" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" parent="1" source="e6oL1a-Md3bHTlAYgt7A-27" target="e6oL1a-Md3bHTlAYgt7A-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-35" value="Consulta registros de auditoría" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="e6oL1a-Md3bHTlAYgt7A-29" target="e6oL1a-Md3bHTlAYgt7A-26" edge="1">
+          <mxGeometry x="-0.6438" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6oL1a-Md3bHTlAYgt7A-36" value="Supervisión de eventos" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.16;rounded=0;" parent="1" source="e6oL1a-Md3bHTlAYgt7A-31" target="e6oL1a-Md3bHTlAYgt7A-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="714" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3rBEM_Hy0BIETpIt830F" name="BaseDatosCache">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-1" value="Base de Datos de Cache (ElastiCache - Redis)&#xa;Almacenamiento en memoria para datos frecuentemente solicitados" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="84" y="195" width="900" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-2" value="Almacenamiento en Memoria&#xa;Datos temporales de alta frecuencia" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="414" y="220" width="240" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-3" value="Gestión de Expiración de Datos&#xa;Eliminación de datos caducados" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="119" y="412" width="239" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-4" value="Copia de Seguridad de Cache&#xa;Persistencia en caso de fallo" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="719" y="412" width="226" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-5" value="API Gateway&#xa;(Intermediario para solicitudes de datos)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="208" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-6" value="Servicio Core Bancario&#xa;(Consulta de datos de cuenta)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="278" y="20" width="221" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-7" value="Servicio de Notificaciones&#xa;(Envío de notificaciones rápidas)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="549" y="20" width="245" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-8" value="Monitoreo y Alerta&#xa;(Supervisión de rendimiento de la cache)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="844" y="20" width="240" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-9" value="Solicita datos en cache" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.28;rounded=0;" parent="1" source="ogKPYxGtOCys_SvAxn4j-5" target="ogKPYxGtOCys_SvAxn4j-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="124" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-10" value="Consulta y guarda en cache" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.1;entryY=0;rounded=0;" parent="1" source="ogKPYxGtOCys_SvAxn4j-6" target="ogKPYxGtOCys_SvAxn4j-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="388" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-11" value="Almacena datos de notificación" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.89;entryY=0;rounded=0;" parent="1" source="ogKPYxGtOCys_SvAxn4j-7" target="ogKPYxGtOCys_SvAxn4j-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="671" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-12" value="Gestión de expiración" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.5;entryY=0;rounded=0;" parent="1" source="ogKPYxGtOCys_SvAxn4j-2" target="ogKPYxGtOCys_SvAxn4j-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-13" value="Copia de seguridad automática" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0.5;entryY=0;rounded=0;" parent="1" source="ogKPYxGtOCys_SvAxn4j-2" target="ogKPYxGtOCys_SvAxn4j-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="832" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ogKPYxGtOCys_SvAxn4j-14" value="Supervisa rendimiento" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.29;rounded=0;" parent="1" source="ogKPYxGtOCys_SvAxn4j-8" target="ogKPYxGtOCys_SvAxn4j-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="964" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RE2f3KYakZrSXFubStF7" name="Página-18">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
